@@ -16,8 +16,8 @@ function Header() {
 
             </div>
             <div className='header__right'>
-                <Avatar src='' alt='raj' />
-                <h4>Rakshith Raj S</h4>
+                <Avatar src={user?.images[0].url} alt={user?.display_name} />
+                <h4>{user?.display_name}</h4>
             </div>
         </div>
     )
